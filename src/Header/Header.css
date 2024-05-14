@@ -1,0 +1,16 @@
+.navbar {
+    opacity: 0;
+    transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .navbar.show {
+    opacity: 1;
+  }
+
+  .navbar.hidden {
+    display: none;
+  }
+  .icon {
+    filter: brightness(0) invert(1);
+}
+  
